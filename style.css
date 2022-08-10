@@ -211,3 +211,192 @@ a{
 
 
 /* section3 끝 */
+/* section4 시작 */
+.section4{
+  width: 1200px;
+  height: 620px;
+  margin-top: 40px;
+}
+
+.section4 > .delivery{
+  width: 680px;
+  height: 620px;
+}
+
+.section4 > .delivery > h5 {
+  font-weight:bold;
+}
+
+.section4 > .delivery > .delivery-box{
+  width: 680px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.section4 > .delivery > .delivery-box> .delivery-icon{
+  width: 264px;
+  height: 226px;
+  background-image: url(https://i.postimg.cc/T18szVzW/image-24.png);
+}
+
+.section4 > .delivery > .delivery-box> .delivery-text{
+  width: 366px;
+  height: 100px;
+  background-color: #023586;
+  margin-left: 20px;
+  box-sizing:border-box;  
+  border-radius:20px;
+  color:white;
+  text-align:center;
+  margin-bottom: 20px;  
+}
+.section4 > .delivery > .delivery-box> .delivery-text > p{  
+  line-height:65px;
+}
+.section4 > .delivery > .delivery-box> .delivery-text > p:nth-child(2n){  
+  line-height:0px;
+}
+
+.section4 > .delivery > .pickup-box{
+  width: 680px;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.section4 > .delivery > .pickup-box> .pickup-icon{
+  width: 264px;
+  height: 226px;
+  background-image: url(https://i.postimg.cc/k4ZVq4sS/image-23.png);
+}
+
+.section4 > .delivery > .pickup-box> .pickup-text{
+  width: 366px;
+  height: 100px;
+  background-color: #023586;
+  margin-left: 20px;
+  box-sizing:border-box;  
+  border-radius:20px;
+  color:white;
+  text-align:center;
+  margin-bottom: 20px;  
+}
+
+.section4 > .delivery > .pickup-box> .pickup-text > p{  
+  line-height:65px;
+}
+.section4 > .delivery > .pickup-box> .pickup-text > p:nth-child(2n){  
+  line-height:0px;
+}
+
+.section4 > .information{
+  width: 471px;
+  height: 620px;
+  margin-left: 48px;
+  
+}
+
+.section4 > .information > .franchise{
+  width: 471px;
+  height: 237px;
+  background-image: url(https://i.postimg.cc/TPvXbW20/image-33.png); 
+  box-sizing:border-box;  
+  border-radius:20px;
+  margin-top: 35px; 
+}
+
+.section4 > .information > .recruit{
+  width: 472px;
+  height: 337px;
+  margin-top: 22px;
+}
+
+.section4 > .information > .recruit > .recruit-01{
+  width: 472px;
+  height: 77px;
+}
+
+.section4 > .information > .recruit > .recruit-01 > .spc-img-box{
+  width: 95px;
+  height: 32px;
+  background-image: url(https://i.postimg.cc/pXd8NmHs/image-31.png);
+  margin-top: 18px;
+  margin-left: 21px;
+}
+
+.section4 > .information > .recruit > .recruit-01 > .spc-txt-box{
+  margin-left: 13px;
+  margin-top: 15px;
+  font-weight:bold;
+}
+
+.section4 > .information > .recruit > .recruit-img{
+  width: 232px;
+  height: 68px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  box-sizing:border-box;
+  border-radius:20px;
+}
+
+.section4 > .information > .recruit > .recruit-img:nth-child(2n){
+  margin-right: 0;
+}
+
+/* 섹션4 끝 */
+/* 푸터 시작 */
+
+.footer{
+  height: 360px;
+  background-color: #023586;
+  margin-top: 40px;
+}
+
+.footer >.footer-box > .logo-box{
+  width: 264px;
+  height: 360px;  
+}
+
+.footer >.footer-box > .logo-box > .img-box{
+  width: 225px;
+  height: 225px;
+  margin-top: 40px;
+  background-image: url(https://i.postimg.cc/13PSdq6d/image.png);
+}
+
+.footer >.footer-box > .text-box{
+  width: 576px;
+  height: 360px;
+  margin-left: 48px;
+}
+.footer >.footer-box > .text-box > .info-box{
+  width: 160px;
+  height: 220px;
+  margin-top: 30px;
+}
+.footer >.footer-box > .text-box > .contect-box{
+  width: 263px;
+  height: 220px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.footer >.footer-box > .text-box > .add-box{
+  width: 575px;
+  height: 60px;
+  margin-top: 40px;  
+}
+
+
+.footer >.footer-box > .other-box{
+  width: 264px;
+  height: 360px;
+  background-color: #fdd;
+  margin-left: 48px;
+}
+
+.footer >.footer-box > .other-box > .follow{
+  width: 264px;
+  height: 77px;
+  background-color: red;
+  margin-top: 30px;
+}
