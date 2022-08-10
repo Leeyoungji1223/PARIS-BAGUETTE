@@ -104,7 +104,7 @@ a{
 /* 제품바로가기 시작 */
 .section1 {
   height: 235px;
-  background-color: #ddd;
+  margin-top: 60px;
 }
 
 .section1 > h5{
@@ -400,3 +400,4 @@ a{
   background-color: red;
   margin-top: 30px;
 }
+
