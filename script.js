@@ -2,11 +2,10 @@
 $(document).ready(function(){
   $('.slider').slick({
     dots: true,
+    centerMode: false ,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay : true
   });
-});
-
-$('.slider').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
 });
