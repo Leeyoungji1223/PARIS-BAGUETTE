@@ -78,16 +78,23 @@ a{
 /* top-bar 끝 */
 
 /* slider 시작 */
+
 .slider-wrap{
-  max-width: 800px;
   margin: 0 auto;
   position: relative ;  
-  padding-top: 10px;
-  
+  padding-top: 10px;  
 }
 
 .slider > div {
-  height:500px;
+  width: 100%;
+  height:700px;
+}
+
+.slider-wrap > .slider .content{
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius:10px;
+  overflow:hidden;
 }
 
 .slider .slick-dots li button::before {
@@ -390,14 +397,54 @@ a{
 .footer >.footer-box > .other-box{
   width: 264px;
   height: 360px;
-  background-color: #fdd;
   margin-left: 48px;
 }
 
 .footer >.footer-box > .other-box > .follow{
   width: 264px;
   height: 77px;
-  background-color: red;
   margin-top: 30px;
+}
+
+
+.footer >.footer-box > .other-box > .follow > .icon{
+  
+}
+.footer >.footer-box > .other-box > .follow > .icon i{
+  font-size:25px;
+  margin-top: 10px;
+  margin-right: 10px;
+  color:white;
+}
+
+.footer >.footer-box > .other-box > .content{
+  width: 264px;
+  height: 80px;
+  margin-top: 30px;
+}
+
+.footer >.footer-box > .other-box > .content >.spc{
+  margin-top: 10px;
+}
+
+.footer >.footer-box > .other-box > .content >.with img{
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.footer >.footer-box > .other-box > .content >.with img:nth-child(5n){
+  margin-right: 0;
+}
+
+.footer >.footer-box > .other-box > .brand{
+  width: 210px;
+  height: 63px;
+  margin-top: 50px;
+  border:1px solid white;
+  box-sizing:border-box;
+  border-radius:20px;
+  text-align:center;
+  line-height:63px;
+  font-weight:bold;
+  font-size:15px;
 }
 
